@@ -11,6 +11,13 @@ services:
   icon: ''
 heading: Why am I here
 textline: Oh yeah, buttons!
+banner_image: "/uploads/2018/02/25/car.jpg"
+hero_button:
+  text: Button
+  href: ''
+show_news: false
+partners: []
+show_staff: false
 menu:
   navigation:
     weight: 1
