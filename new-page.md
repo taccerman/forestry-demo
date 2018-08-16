@@ -8,6 +8,5 @@ menu:
   navigation:
     weight: 1
     title: New
-published: false
 
 ---
