@@ -12,14 +12,14 @@ fields:
   label: Sub Heading
   name: sub_heading
   default: ''
-- name: date
-  label: Publish Date
-  type: datetime
-  hidden: false
-  default: ''
 - name: tags
   label: Tags
   type: tag_list
+  hidden: false
+  default: ''
+- name: date
+  label: Publish Date
+  type: datetime
   hidden: false
   default: ''
 - type: file
@@ -39,3 +39,7 @@ fields:
   type: text
   hidden: true
   default: post
+- type: tag_list
+  name: tags
+  label: Tags
+  description: Hier was reinschreiben
